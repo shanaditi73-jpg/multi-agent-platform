@@ -19,5 +19,6 @@ export async function submitTask(task: string) {
 }
 
 export function getWebSocketUrl() {
-  return `ws://127.0.0.1:8000/ws/run`;
+  return `wss://multi-agent-platform-api.onrender.com/ws/run`;
 }
+
