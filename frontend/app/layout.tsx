@@ -29,7 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '16px'
                 }}>🤖</div>
                 <span style={{ fontWeight: '600', fontSize: '16px', color: '#e2e8f0' }}>
-                  <AgentForge></AgentForge>
+                  AgentForge
                 </span>
               </Link>
               <div style={{ display: 'flex', gap: '4px' }}>
