@@ -1,6 +1,6 @@
-# Multi-Agent AI Platform
+# AgentForge
 
-A full-stack web app where three AI agents collaborate to solve coding tasks — live, in your browser.
+A full-stack platform where three AI agents collaborate to solve coding tasks — live, in your browser.
 
 You type a task. A research agent plans it. A coding agent writes it. A review agent critiques it. You watch all three work in real time.
 
