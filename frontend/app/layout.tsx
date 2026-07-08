@@ -3,7 +3,7 @@ import './globals.css';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Multi-Agent AI Platform',
+  title: 'AgentForge',
   description: 'A platform with 3 specialized AI agents',
 };
 
@@ -29,7 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '16px'
                 }}>🤖</div>
                 <span style={{ fontWeight: '600', fontSize: '16px', color: '#e2e8f0' }}>
-                  Multi-Agent AI
+                  <AgentForge></AgentForge>
                 </span>
               </Link>
               <div style={{ display: 'flex', gap: '4px' }}>
