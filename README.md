@@ -5,7 +5,8 @@ A full-stack platform where three AI agents collaborate to solve coding tasks �
 You type a task. A research agent plans it. A coding agent writes it. A review agent critiques it. You watch all three work in real time.
 
 **Live demo → [multi-agent-platform-rho.vercel.app](https://multi-agent-platform-rho.vercel.app)**  
-**API docs → [multi-agent-platform-api.onrender.com/docs](https://multi-agent-platform-api.onrender.com/docs)**
+**API docs → [multi-agent-platform-api.onrender.com/docs](https://multi-agent-platform-api.onrender.com/docs)**  
+**GitHub → [github.com/shanaditi73-jpg/multi-agent-platform](https://github.com/shanaditi73-jpg/multi-agent-platform)**
 
 ---
 
@@ -21,9 +22,9 @@ The hardest part was figuring out how to stream live agent updates to the browse
 
 Submit any coding or research task and watch three specialized agents work through it:
 
-- **Research Agent** — breaks down the task, identifies what's needed, creates a structured plan
-- **Coding Agent** — takes that plan and writes actual working code with explanations
-- **Review Agent** — reads the code, checks for bugs and improvements, gives a final verdict
+- 🔍 **Research Agent** — breaks down the task, identifies what's needed, creates a structured plan
+- 💻 **Coding Agent** — takes that plan and writes actual working code with explanations
+- ✅ **Review Agent** — reads the code, checks for bugs and improvements, gives a final verdict
 
 Every run is saved. You can browse the full history, see each agent's individual output, and track platform usage on the analytics page.
 
@@ -134,7 +135,7 @@ Frontend runs at `http://localhost:3000`
 ## Project structure
 
 ```
-multi-agent-platform/
+agentforge/
 ├── backend/
 │   ├── main.py          # FastAPI app, all routes, WebSocket handler
 │   ├── agents.py        # 3 agent functions + LangGraph pipeline
@@ -189,4 +190,4 @@ Before this project I had never worked with WebSockets, multi-agent systems, or 
 
 ---
 
-Built with FastAPI, LangGraph, Next.js, and Groq. Deployed on Render + Vercel.
+Built with FastAPI, LangGraph, Next.js, and Groq. Deployed on Render + Vercel.Deployed on Render + Vercel.
